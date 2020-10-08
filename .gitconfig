@@ -1,2 +1,10 @@
 [alias]
-   pra = pull --rebase --autostash
+	pra = pull --rebase --autostash
+[commit]
+	gpgsign = true
+[core]
+	editor = vim
+[user]
+	name = Aloïs Micard
+	signingkey = 0859FCD2
+	email = alois@micard.lu
