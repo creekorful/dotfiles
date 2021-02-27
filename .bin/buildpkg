@@ -1,0 +1,3 @@
+#!/bin/sh
+
+gbp buildpackage --git-builder=sbuild -A -v -s -d unstable --source-only-changes --no-run-lintian --run-autopkgtest

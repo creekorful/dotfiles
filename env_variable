@@ -1,0 +1,8 @@
+export PATH=$PATH:~/go/bin
+export PATH=~/.bin:$PATH
+export DEBEMAIL=alois@micard.lu
+export DEBFULLNAME="Aloïs Micard"
+export GPG_TTY=$(tty)
+export LESSCHARSET=utf-8
+export PATH="$PATH:$HOME/.bin"
+export EDITOR="vim"
