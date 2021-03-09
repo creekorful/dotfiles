@@ -1,0 +1,3 @@
+#!/bin/bash
+
+DEBFULLNAME="Alois Micard" bts --sendmail="~/mailman" "$@"
