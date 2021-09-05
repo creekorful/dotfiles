@@ -1,3 +1,4 @@
 #!/bin/sh
 
-gbp clone git@salsa.debian.org:go-team/packages/$1.git
+/usr/bin/gbp clone "git@salsa.debian.org:go-team/packages/$1.git"
+/usr/bin/apt source --download-only "$1"
