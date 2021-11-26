@@ -1,0 +1,7 @@
+#!/bin/sh
+
+VERSION=$(dpkg-parsechangelog --show-field Version)
+
+dch -m -r ""
+git add .
+git commit -m "Release $VERSION"
