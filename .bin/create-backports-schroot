@@ -2,5 +2,5 @@ sbuild-createchroot \
   --include=eatmydata,ccache,gnupg \
   --extra-repository="deb http://caching:3142/debian $1-backports main" \
   --chroot-prefix="$1-backports" \
-  "$1" "/srv/chroot/$1-backports-amd64" \
+  "$1" "/srv/chroot/$1-backports-amd64-sbuild" \
   http://caching:3142/debian
